@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="PageObjectTestNGFramework" target="16" />
+      <module name="PageObjectTestNGFramework" target="15" />
     </bytecodeTargetLevel>
   </component>
 </project>
