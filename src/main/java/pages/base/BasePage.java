@@ -18,7 +18,7 @@ public class BasePage {
         driver.get(url);
     }
 
-    public WebElement webElementIsVisible(WebElement element){
+    public WebElement waitElementIsVisible(WebElement element){
         new WebDriverWait(driver, EXPLICIT_WAIT).until(ExpectedConditions.visibilityOf(element));
         return element;
     }
