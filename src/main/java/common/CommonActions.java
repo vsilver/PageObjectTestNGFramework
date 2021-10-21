@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
+
 import java.util.concurrent.TimeUnit;
 
 import static common.Configurations.PLATFORM_AND_BROWSER;
