@@ -2,51 +2,25 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-22T03:50:29Z" name="All Test Suite" finished-at="2021-10-22T03:50:37Z" duration-ms="8905">
+  <suite started-at="2021-11-04T05:12:51Z" name="All Test Suite" finished-at="2021-11-04T05:13:02Z" duration-ms="11333">
     <groups>
     </groups>
-    <test started-at="2021-10-22T03:50:29Z" name="D:/PageObjectTestNGFramework" finished-at="2021-10-22T03:50:37Z" duration-ms="8905">
+    <test started-at="2021-11-04T05:12:51Z" name="D:/PageObjectTestNGFramework" finished-at="2021-11-04T05:13:02Z" duration-ms="11333">
       <class name="tests.searchapartment.SearchApartmentTest">
-        <test-method signature="checkIsRedirectToListing()[pri:0, instance:tests.searchapartment.SearchApartmentTest@7b3cde6f]" started-at="2021-10-22T03:50:29Z" name="checkIsRedirectToListing" finished-at="2021-10-22T03:50:37Z" duration-ms="8393" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="checkIsRedirectToListing()[pri:0, instance:tests.searchapartment.SearchApartmentTest@7f4701b1]" started-at="2021-11-04T05:12:51Z" name="checkIsRedirectToListing" finished-at="2021-11-04T05:13:02Z" duration-ms="10558" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id = 'residentialInputs']/a[text = 'найти']"}
-  (Session info: chrome=95.0.4638.54)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-MKNQSB3', ip: '192.168.0.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\Valerii\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60929}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 122dc0f51c9a0b0a6c9c81f1435e9ce4
-*** Element info: {Using=xpath, value=//div[@id = 'residentialInputs']/a[text = 'найти']}]]>
+              <![CDATA[expected [20] but found [0]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id = 'residentialInputs']/a[text = 'найти']"}
-  (Session info: chrome=95.0.4638.54)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-MKNQSB3', ip: '192.168.0.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\Valerii\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60929}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 122dc0f51c9a0b0a6c9c81f1435e9ce4
-*** Element info: {Using=xpath, value=//div[@id = 'residentialInputs']/a[text = 'найти']}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at pages.realt_home.RealtHomePage.clickToFind(RealtHomePage.java:26)
-at tests.searchapartment.SearchApartmentTest.checkIsRedirectToListing(SearchApartmentTest.java:16)
+              <![CDATA[java.lang.AssertionError: expected [20] but found [0]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at org.testng.Assert.assertEquals(Assert.java:662)
+at tests.searchapartment.SearchApartmentTest.checkIsRedirectToListing(SearchApartmentTest.java:20)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -77,15 +51,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkIsRedirectToListing -->
-        <test-method is-config="true" signature="clearCookiesAndLocalStorage()[pri:0, instance:tests.searchapartment.SearchApartmentTest@7b3cde6f]" started-at="2021-10-22T03:50:37Z" name="clearCookiesAndLocalStorage" finished-at="2021-10-22T03:50:37Z" duration-ms="152" status="PASS">
+        <test-method is-config="true" signature="clearCookiesAndLocalStorage()[pri:0, instance:tests.searchapartment.SearchApartmentTest@7f4701b1]" started-at="2021-11-04T05:13:02Z" name="clearCookiesAndLocalStorage" finished-at="2021-11-04T05:13:02Z" duration-ms="442" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearCookiesAndLocalStorage -->
-        <test-method is-config="true" signature="close()[pri:0, instance:tests.searchapartment.SearchApartmentTest@7b3cde6f]" started-at="2021-10-22T03:50:38Z" name="close" finished-at="2021-10-22T03:50:39Z" duration-ms="1126" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.searchapartment.SearchApartmentTest@7f4701b1]" started-at="2021-11-04T05:13:02Z" name="close" finished-at="2021-11-04T05:13:04Z" duration-ms="1197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

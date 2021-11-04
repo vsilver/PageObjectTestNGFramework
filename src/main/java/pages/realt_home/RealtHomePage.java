@@ -12,10 +12,10 @@ public class RealtHomePage extends BasePage {
     }
 
     private final By countRooms = By.id("rooms");
-    private final By option2Rooms = By.xpath("//select[@id = 'rooms']/option[@value = '2']");
-    private final By findBtn = By.xpath("//div[@id = 'residentialInputs']/a[text = 'найти']");
+    private final By option2Rooms = By.xpath("//select[@id = 'rooms']//option[3]");
+    private final By findBtn = By.xpath("//*[@class = 'common-search-submit btn btn-primary']");
 
-    public RealtHomePage enterCountRooms(){
+    public RealtHomePage enterCountRooms() {
         driver.findElement(countRooms).click();
         driver.findElement(option2Rooms).click();
 
